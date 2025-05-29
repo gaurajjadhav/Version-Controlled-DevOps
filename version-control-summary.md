@@ -1,11 +1,11 @@
 
-## ✅ Version Control & CI/CD Setup Documentation
+##  Version Control & CI/CD Setup Documentation
 
 This project follows a structured Git workflow for version control and includes CI/CD configuration, Docker support, and unit testing. Below is a step-by-step summary of the process used to successfully configure and finalize the project.
 
 ---
 
-### 🔁 1. Cloning and Branching
+###  1. Cloning and Branching
 
 ```bash
 git clone https://github.com/gaurajjadhav/Version-Controlled-DevOps.git
@@ -17,7 +17,7 @@ git checkout -b dev
 
 ---
 
-### 🛠️ 2. Creating Feature Branches
+###  2. Creating Feature Branches
 
 ```bash
 git checkout -b feature/setup-ci
@@ -36,7 +36,7 @@ git checkout -b feature/unit-tests
 
 ---
 
-### ✅ 3. Committing Changes
+###  3. Committing Changes
 
 ```bash
 git add .
@@ -47,7 +47,7 @@ git commit -m "Add CI config / Dockerfile / unit test"
 
 ---
 
-### 🔀 4. Pushing and Creating Pull Requests
+###  4. Pushing and Creating Pull Requests
 
 ```bash
 git push origin feature/setup-ci
@@ -63,7 +63,7 @@ Pull requests were created and merged in this order:
 
 ---
 
-### 🚀 5. Merging `dev` to `main`
+###  5. Merging `dev` to `main`
 
 ```bash
 git checkout main
@@ -76,7 +76,7 @@ git push origin main
 
 ---
 
-### 🏷️ 6. Tagging the First Release
+###  6. Tagging the First Release
 
 ```bash
 git tag v1.0
@@ -87,12 +87,12 @@ git push origin v1.0
 
 ---
 
-### 🎉 Final Result
+###  Final Result
 
 - Project successfully configured with:
-  - ✅ CI setup (`ci-config.yaml`)
-  - ✅ Docker support (`Dockerfile`)
-  - ✅ Unit tests (`tests/test_sample.py`)
+  -  CI setup (`ci-config.yaml`)
+  -  Docker support (`Dockerfile`)
+  -  Unit tests (`tests/test_sample.py`)
 - All feature branches were tested, reviewed, and merged cleanly.
 - A stable release `v1.0` is now published.
 
